@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send Request to Render
-        run: curl -X GET "https://your-render-app.onrender.com"  # Replace with your actual Render app URL
+        run: curl -X GET "https://wallclubs.in/"  # Replace with your actual Render app URL
