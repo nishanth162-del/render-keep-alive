@@ -2,7 +2,7 @@ name: Keep Render Alive
 
 on:
   schedule:
-    - cron: "*/10 7-23 * * *"  # Runs every 4 minutes
+    - cron: "*/10000 7-23 * * *"  # Runs every 4 minutes
 
 jobs:
   ping:
